@@ -1,14 +1,14 @@
 # FakeNewsDetector
 
 ## Descrição do Projeto
-Este projeto tem como objetivo realizar uma compara��o entre textos digitados pelo usu�rio, ou pego aleatoriamente do site da globo, e compar�-los com um banco de fake news para determinar se o texto pode ser uma fake news ou n�o.
+Este projeto tem como objetivo realizar uma comparação entre textos digitados pelo usuário, ou pego aleatoriamente do site da globo, e compará-los com um banco de fake news para determinar se o texto pode ser uma fake news ou não.
 
 ## Pré-Requisitos
-  Java SE 17 ou mais recente.
-  JavaFX sdk18 ou mais recente.
+ - Java SE 17 ou mais recente.
+ - JavaFX sdk18 ou mais recente.
   
 ## Como compilar e rodar
-Com o projeto aberto no Eclipse, utilize o bot�o direito do mouse em cima da pasta principal do projeto e seleciona a op��o de exportar, na aba de op��es escolha a pasta java e selecione o runnable JAR File, no launch configure selecione a opção da classe main, escolha o local do arquivo junto ao nome e clique em terminar. Pronto, agora você possui o executável do projeto para rodar basta clicar no executável. 
+Com o projeto aberto no Eclipse, utilize o botão direito do mouse em cima da pasta principal do projeto e seleciona a opção de exportar, na aba de op��es escolha a pasta java e selecione o runnable JAR File, no launch configure selecione a opção da classe main, escolha o local do arquivo junto ao nome e clique em terminar. Pronto, agora você possui o executável do projeto para rodar basta clicar no executável. 
 Também é possível executar o programa diretamente do eclipse, ao executar a classe main.
 Atenção para o funcionamento do executável garanta a utilização da versão 17, ou superior, do javaruntime. Como também a atualização do VM argumemts, nas configurações de compilação, para '--module-path "SEU_CAMINHO\javafx-sdk-18.0.1\lib" --add-modules javafx.controls,javafx.fxml"
 ## .Como usar o programa
