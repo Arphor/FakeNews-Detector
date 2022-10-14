@@ -1,15 +1,19 @@
 # FakeNewsDetector
 
-## Descrição do Projeto
-Este projeto tem como objetivo realizar uma comparação entre textos digitados pelo usuário, ou pego aleatoriamente do site da globo, e compará-los com um banco de fake news para determinar se o texto pode ser uma fake news ou não.
+## Description
+ This project has the goal of compare news, be it type by the user or a news article extract from https://g1.globo.com using web scrap, and the database of articles already classified as fake to find out if the text if from a fake news or not.
+ For this purpose with explore text preprocessing methods for cleaning our data, web scrap to get different news from web automatically and two comparions algorithms, Jaro-Winkler distance and Cosine Similarity.
 
-## Pré-Requisitos
+
+## Requirements
  - Java SE 17 ou mais recente.
  - JavaFX sdk18 ou mais recente.
+ - Maven
   
-## Como compilar e rodar
-Com o projeto aberto no Eclipse, utilize o botão direito do mouse em cima da pasta principal do projeto e seleciona a opção de exportar, na aba de op��es escolha a pasta java e selecione o runnable JAR File, no launch configure selecione a opção da classe main, escolha o local do arquivo junto ao nome e clique em terminar. Pronto, agora você possui o executável do projeto para rodar basta clicar no executável. 
-Também é possível executar o programa diretamente do eclipse, ao executar a classe main.
-Atenção para o funcionamento do executável garanta a utilização da versão 17, ou superior, do javaruntime. Como também a atualização do VM argumemts, nas configurações de compilação, para '--module-path "SEU_CAMINHO\javafx-sdk-18.0.1\lib" --add-modules javafx.controls,javafx.fxml"
-## .Como usar o programa
-Ao executar o programa o usuário pode escolher entre digitar um texto direto na área de leitura, ou  utilizar o botão de pesquisar e pegar uma notícia dentro do site da globo, em seguida ele deve selecionar o método de comparação e clicar no botão de comparação onde será aberto uma janela informando se a notícia é fake ou não.
+## Compile and running.
+Direct from Eclipse, use the right button on the main fold and select the export option, in options select java file and runnable JAR File, on launch select the main class, select the file path with the name and click finish. Now you have and .exe of this project and just need to opent it to run.
+
+Like wise you can also run the project on eclipse itself by running the main class.
+
+## Running the program
+After opening the program the user can chose between typing his on news or use the search button to get a article from https://g1.globo.com, after that they must select a comparison method and click on the comparison button, after that a pop-up will show up saying if the new is fake or not.
